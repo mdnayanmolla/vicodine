@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vicodin - Medical eCommerce HTML Template</title>
+        <!-- Place favicon.png in the root directory -->
+        <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
+        <!--Bootstrap Link-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Fontawosme cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+        <!--owl carosuel Slider-->
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+        <!--Themify Icons-->
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <!--Extarnal Css-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <div class="top-bar-wrapper bg-white d-flex justify-content-between align-items-center position-relative"><!--Top bar Wrapper -->
+        <div class="top-adrees d-flex">
+            <div class="top-email-icon">
+                <a href="#"><span class="ti-email pr-2"></span>info@webmail.com</a>
+            </div>
+            <div class="top-add-icon">
+                <a href="#"><span class="ti-location-pin pr-1"></span>15/A, Nest Tower, NYC</a>
+            </div>
+        </div>
+        <div class="top-social d-flex align-items-center">
+            <div class="top-lang">
+                <ul>
+                    <li class="lang-item"><a href="#">English <span class="ti-arrow-down"></span></a>
+                      <ul class="lang-drop bg-white">
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">Arabic</a><li>
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">Bengali</a><li>
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">Chinese</a><li>
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">English</a><li>
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">French</a><li>
+                        <li class="leng-drop-item pt-1 pb-1"><a href="">Hindi</a><li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-social-icon">
+                <a href="#"><span class="ti-facebook"></span></a>
+                <a href="#"><span class="ti-twitter-alt"></span></a>
+                <a href="#"><span class="ti-instagram"></span></a>
+                <a href="#"><span class="ti-dribbble"></span></a>
+            </div>
+        </div>
+    </div><!--Tob Bar Wrapper End-->
+    <div class="menu-top-wrapper d-flex justify-content-between align-items-center"><!--Menu Top Wrapper Start-->
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo.png" alt="">
+        </a>
+      </div>
+      <div class="topPhne-search-wrapper d-flex align-items-center"><!--Top phone search-->
+        <div class="top-phone d-flex align-items-center">
+          <div class="top-phone-icon">
+             <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="top-phone-text">
+             <p>PHONE <br> <a href="#">+0123-456-789</a></p>
+          </div>
+        </div>
+        <div class="top-search">
+          <form action="#">
+             <input type="text" name="search" class="top-searc-input" placeholder="Search">
+             <button type="submit" class="top-btn-submit"><span class="ti-search"></span></button>
+          </form>
+        </div>
+      </div>
+    <div class="search-cart-user d-flex align-items-center position-relative">
+      <div class="saerc-top-mob ml-2 mr-3">
+         <Button  class="mob-btn-search"><span class="ti-search"></span></Button>
+         <div class="mob-form">
+             <form action="#">
+                 <input type="search" name="search" class="mob-input-search">
+                 <button class="mo-search-btn"><span class="ti-search"></span></button>
+             </form>
+           </div>
+      </div>
+      <div class="user-top ml-1 mr-1">
+         <div class="top-user-icon">
+             <span class="ti-user"></span>
+         </div>
+         <div class="account-drop">
+           <ul class="account-menu">
+             <li class="account-item"><a href="login.html">Sign in</a></li>
+             <li class="account-item"><a href="register.html">Register</a></li>
+             <li class="account-item"><a href="account.html">My Account</a></li>
+             <li class="account-item"><a href="wistlist.html">Wishlist</a></li>
+           </ul>
+         </div>
+      </div>
+      <div class="cart-top ml-3 d-flex align-items-center">
+         <div class="top-cart-icon" id="shortView-cart">
+             <span class="ti-shopping-cart"></span>
+             <div class="cart-noti">5</div>
+         </div>
+         <div class="cart-text-top">
+             <a href="cart.html">Your Cart <br><span>$66.00</span></a>
+             <div class="cart-qan-top"></div>
+         </div>
+         <div class="cart-short-wrapper"><!--Cart Short rigth side-->
+             <div class="cart-short">
+               <div class="cart-short-top d-flex justify-content-between align-items-center">
+                 <div class="cart-top-text">
+                   <p>Cart</p>
+                 </div>
+                 <div class="cart-top-btn">
+                   <span class="ti-close"></span>
+                 </div>
+               </div>
+               <div class="short-cart-item">
+                  <div class="short-cart-single d-flex  ">
+                     <div class="short-cart-img">
+                        <img src="image/product/1.png"> 
+                        <div class="short-item-delate d-flex justify-content-center align-items-center">
+                          <span class="ti-close"></span>
+                        </div>
+                     </div>
+                     <div class="short-cart-title pl-4">
+                       <a href="shopDetails.html">Antiseptic Spray</a>
+                       <p>1 x $65.00</p>
+                     </div>
+                  </div>
+                  <div class="short-cart-single pt-4 d-flex  ">
+                   <div class="short-cart-img">
+                      <img src="image/product/2.png"> 
+                      <div class="short-item-delate d-flex justify-content-center align-items-center">
+                       <span class="ti-close"></span>
+                     </div>
+                   </div>
+                   <div class="short-cart-title pl-4">
+                     <a href="shopDetails.html">Antiseptic Spray</a>
+                     <p>1 x $65.00</p>
+                   </div>
+                </div>
+                <div class="short-cart-single pt-4 d-flex  ">
+                 <div class="short-cart-img">
+                    <img src="image/product/3.png"> 
+                    <div class="short-item-delate d-flex justify-content-center align-items-center">
+                     <span class="ti-close"></span>
+                   </div>
+                 </div>
+                 <div class="short-cart-title pl-4">
+                   <a href="shopDetails.html">Antiseptic Spray</a>
+                   <p>1 x $65.00</p>
+                 </div>
+              </div>
+              <div class="short-cart-single pt-4 d-flex  ">
+               <div class="short-cart-img">
+                  <img src="image/product/4.png"> 
+                  <div class="short-item-delate d-flex justify-content-center align-items-center">
+                   <span class="ti-close"></span>
+                 </div>
+               </div>
+               <div class="short-cart-title pl-4">
+                 <a href="shopDetails.html">Antiseptic Spray</a>
+                 <p>1 x $65.00</p>
+               </div>
+               </div>
+               </div>
+               <div class="short-cart-total d-flex justify-content-between align-items-center">
+                  <div class="short-total">
+                   <h5>Subtotal</h5>
+                  </div>
+                  <div class="short-value">
+                   <h5>$310.00</h5>
+                  </div>
+               </div>
+               <div class="short-cart-btn d-flex justify-content-between pt-4">
+                 <div>
+                   <a class="btn success-btn" href="cart.html">View Cart</a>
+                   <!-- <button type="submit" class="success-btn mt-4"> Save Change</button> -->
+                 </div>
+                 <div>
+                   <a class="btn primary-btn" href="checkout.html">Checkout</a>  
+                 </div>
+               </div>
+               <p class="short-free-p">Free Shipping on All Orders Over $100!</p>
+             </div>
+         </div><!--Cart Short rigth sid End-->
+      </div>
+    </div>
+ </div><!--Menu Top Wrapper End-->
+<header>
+  <div class="sticky-logo">
+     <a href="#">   <img src="image/logo-3.png"></a>
+  </div>
+  <div class="res-header">
+    <div class="menu-text-mob">
+      <p>Manu</p>
+    </div>
+    <div class="fa-solid fa-bars" id="menubar-btn"></div>
+  </div>
+  <div class="nav-bar">
+    <div class="menu-bar">
+     <div class="mobile-menu-top">
+      <div class="mob-logo-wrapper">
+        <div class="mobile-logo">
+           <a href="index.html"><img src="image/logo.png"></a>
+        </div>
+        <div class="menu-close-btn">
+          <span class="ti-close"></span>
+        </div>
+      </div>
+      <div class="res-mob-search">
+        <form>
+          <input type="search" name="seach" class="mobTop-search-input" placeholder="Search...">
+          <button type="submit" class="res-mob-serchBtn"><span class="ti-search"></span</button>
+        </form>
+      </div>
+     </div>
+      <ul class="menu">
+        <li class="menu-item"><a class="sub-btn" href="index.html">Home</a>
+          <!-- <ul class="sub-menu">
+            <li class="sub-item"><a href="index.html">Home 01</a></li>
+            <li class="sub-item"><a href="404.html">Home 02</a></li>
+            <li class="sub-item"><a href="404.html">Home 03</a></li>
+            <li class="sub-item"><a href="404.html">Home 04</a></li>
+          </ul> -->
+        </li>
+        <li class="menu-item"><a class="sub-btn" href="about.html">About</a>
+          <!-- <ul class="sub-menu">
+            <li class="sub-item"><a href="about.html">About</a></li>
+            <li class="sub-item"><a href="comeingSoon.html">Services</a></li>
+            <li class="sub-item"><a href="comeingSoon.html">Service Details</a></li>
+            <li class="sub-item"><a href="comeingSoon.html">Team</a></li>
+            <li class="sub-item"><a href="comeingSoon.html">Team Details</a></li>
+            <li class="sub-item"><a href="comeingSoon.html">FAQ</a></li>
+          </ul> -->
+        </li>
+        <li class="menu-item"><a class="sub-btn" href="javascript:void(0)">Shop <i class="fa-solid fa-plus"></i></a>
+          <ul class="sub-menu">
+            <li class="sub-item"><a href="shop.html">Shop</a></li>
+            <li class="sub-item"><a href="shopLeftSidebar.html">Shop Left sidebar</a></li>
+            <li class="sub-item"><a href="shopRightSidebar.html">Shop right sidebar</a></li>
+            <li class="sub-item"><a href="shopDetails.html">Shop details</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a class="sub-btn" href="javascript:void(0)">News <i class="fa-solid fa-plus"></i></a>
+          <ul class="sub-menu">
+            <li class="sub-item"><a href="news.html">News</a></li>
+            <li class="sub-item"><a href="newsgrid.html">News Grid</a></li>
+            <li class="sub-item"><a href="newsLeftSide.html">News Left sidebar</a></li>
+            <li class="sub-item"><a href="newsRightSide.html">News Right sidebar</a></li>
+            <li class="sub-item"><a href="newsSingle.html">News details</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="javascript:void(0)">Pages <i class="fa-solid fa-plus"></i></a></li>
+        <li class="menu-item"><a href="contact.html">Contact </a></li>
+      </ul>
+      <div class="mobile-menu-bottom">
+        <div class="short-menu">
+           <div class="mob-account d-flex align-items-center">
+             <div class="account-icon d-flex justify-content-center align-items-center">
+                <a href="#"><span class="ti-user"></span></a>
+             </div>
+             <div class="account-text pl-3">
+                <a href="#">My Account</a>
+             </div>
+           </div>
+           <div class="mob-account pt-4 pb-4 d-flex align-items-center">
+            <div class="account-icon d-flex justify-content-center align-items-center">
+               <a href="#"><span class="ti-shopping-cart"></span></a>
+               <div class="mob-quan">4</div>
+            </div>
+            <div class="account-text pl-3">
+               <a href="#">Shoping Cart </a>
+            </div>
+          </div>
+          <div class="mob-account d-flex align-items-center">
+            <div class="account-icon d-flex justify-content-center align-items-center">
+               <a href="#"><span class="ti-heart"></span></a>
+               <div class="mob-quan">3</div>
+            </div>
+            <div class="account-text pl-3">
+               <a href="#">Wishlist </a>
+            </div>
+          </div>
+        </div>
+        <div class="mob-social d-flex pt-5 ">
+          <div class="mob-face d-flex justify-content-center align-items-center">
+             <a href="#"><span class="ti-facebook"></span></a>
+          </div>
+          <div class="mob-face ml-3 d-flex justify-content-center align-items-center">
+            <a href="#"><span class="ti-twitter-alt"></span></a>
+          </div>
+          <div class="mob-face ml-3 d-flex justify-content-center align-items-center">
+            <a href="#"><span class="ti-linkedin"></span></a>
+          </div>
+         <div class="mob-face ml-3 d-flex justify-content-center align-items-center">
+           <a href="#"><span class="ti-instagram"></span></a>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</header>
+<!--Header End-->
+<!--Banner Satart-->
+<section>
+  <div class="banner d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="banner-content">
+             <h1>My Account</h1>
+             <p><a href="index.html"><span class="ti-home s-home-icon"></span> Home <span class="ti-angle-right"></span></a> My Account</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--Banner Section End-->
+<section >
+  <div class="container">
+     <div class="row account-p">
+        <div class="col-lg-4 col-md-12 col-sm-12"><!--Account left side-->
+           <div class="account-left">
+            <div class="acoount-left-content ">
+              <ul class="account-lef-menu">
+                  <li class="acc-left-imtem active">Dashboard <span><i class="fa-solid fa-house-user"></i></span></li>
+                  <li class="acc-left-imtem">Orders <span><i class="fa-sharp fa-solid fa-file"></i></span></li>
+                  <li class="acc-left-imtem">Downloads <span><i class="fa-solid fa-arrow-down"></i></span></li>
+                  <li class="acc-left-imtem">address <span><i class="fa-sharp fa-solid fa-location-dot"></i></span></li>
+                  <li class="acc-left-imtem">Account Details <span><i class="fa-solid fa-user"></i></span></li>
+                  <li class="acc-left-imtem"><a href="login.html" class="">Logout <span><i class="fa-solid fa-right-from-bracket"></i></span></a></li>
+              </ul>
+          </div>
+           </div>
+        </div><!--Account left side-->
+        <div class="col-lg-8 col-md-12 col-sm-12 margin-accunt ">
+          <div class="deshboard babs-div active"><!--DeashBoard Modal-->
+            <div class="desh-user">
+              <p>Hello <strong>UserName </strong>( not <strong> UserName</strong>? <a href="#">Log out</a> )</p>
+            </div>
+            <div class="desh-user mt-4">
+               <p>From your account dashboard you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details.</p>
+            </div>
+         </div><!--DeashBoard Modal end -->
+        <div class="order-modal  babs-div"><!--order modal start-->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Order</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Total</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Jun 22, 2019</td>
+                <td>Pending</td>
+                <td>$3000</td>
+                <td><a href="#">View</a></td>
+              </tr>
+            
+              <tr>
+                <th scope="row">2</th>
+                <td>Jun 22, 2019</td>
+                <td>Pending</td>
+                <td>$3000</td>
+                <td><a href="#">View</a></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Jun 22, 2019</td>
+                <td>Pending</td>
+                <td>$3000</td>
+                <td><a href="#">View</a></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div><!--order modal end-->
+        <div class="order-modal  babs-div"><!--Downloads modal start-->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Date</th>
+                <th scope="col">Expire</th>
+                <th scope="col">Download</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Carsafe - Car Service PSD Template</td>
+                <td>Nov 22, 2020</td>
+                <td>Yes</td>
+                <td><a href="#"> Download File</a></td>
+              </tr>
+            
+              <tr>
+                <td>Carsafe - Car Service PSD Template</td>
+                <td>Nov 22, 2020</td>
+                <td>Yes</td>
+                <td><a href="#"> Download File</a></td>
+              </tr>
+              <tr>
+                <td>Carsafe - Car Service PSD Template</td>
+                <td>Nov 22, 2020</td>
+                <td>Yes</td>
+                <td><a href="#" class="table-a"> Download File</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!--Downloads modal end-->
+        <div class="address-profile  babs-div"><!--Address Profile modal-->
+          <div class="desh-user">
+            <p>The following addresses will be used on the checkout page by default.</p>
+          </div>
+          <div class="address-content d-flex">
+            <div class="add-billing">
+              <h4 class="pt-4">Billing Address edit</h4>
+              <strong>Alex Tuntuni</strong>
+              <p class="pt-3">1355 Market St, Suite 900,<br>
+                San Francisco, CA 94103</p>
+               <p>Mobile: (123) 456-7890</p>
+            </div>
+            <div class="add-billing">
+              <h4 class="pt-4">Shipping Address edit</h4>
+              <strong>Alex Tuntuni</strong>
+              <p class="pt-3">1355 Market St, Suite 900<br>
+                San Francisco, CA 94103</p>
+               <p>Mobile: (123) 456-7890</p>
+            </div>
+         </div>
+        </div><!--Address Profile modal end-->
+        <div class="account-details  babs-div"><!--Account-dteails modal-->
+          <div class="desh-user">
+            <p>The following addresses will be used on the checkout page by default.</p>
+          </div>
+          <div class="account-save pt-5"><!--account-save-data-->
+            <form>
+              <div class="row form-group">
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                  <label>First name:</label>
+                  <input type="text" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                  <label>Last name:</label>
+                  <input type="text" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                 </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-3">
+                  <label>Display Name:</label>
+                 <input type="text" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-3">
+                  <label>Display Email:</label>
+                   <input type="email" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+             </div>
+              <!-- <button type="submit" class="btn-primary mt-4">Create account</button> -->
+            </form>
+          </div><!--account-save-data end-->
+          <div class="data-save-change">
+            <h4>PASSWORD CHANGE</h4>
+            <form>
+              <div class="form-group">
+                <label>Current password (leave blank to leave unchanged):</label>
+                <input type="text" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group pt-3">
+                <label>New password (leave blank to leave unchanged):</label>
+                <input type="email" class="form-control reg-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group pt-3">
+                <label>Confirm new password:</label>
+                <input type="password" class="form-control reg-input" id="exampleInputPassword1" >
+              </div>
+              <button type="submit" class="success-btn mt-4"> Save Change</button>
+            </form>
+          </div>
+        </div><!--Accpunt Details end-->
+        </div>
+     </div>
+  </div>
+</section>
+<!--Footer Section Start-->
+<footer>
+    <div class="contaienr">
+      <div class="row">
+        <div class="footer-newslatter">
+           <div class="fnewslatter-wrapper d-flex align-items-center justify-content-between">
+               <div class="f-news-text">
+                 <h1>Buy medical disposable face mask
+                  to protect your loved ones</h1>
+               </div>
+               <div class="f-news">
+                <a class="btn fnew-btn" href="#">Explore Products <span class="ti-arrow-right"></span></a>  
+               </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-wrapper">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+         <div class="footer-prent-one">
+           <img src="image/logowhite.png">
+           <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+           <div class="ft-address">
+              <ul>
+                <li><span class="ft-address-icon"><i class="fa-solid fa-location-dot"></i></span>Brooklyn, New York, United States</li>
+                <li><span class="ft-address-icon"><i class="fa-solid fa-phone"></i></span><a href="#">+0123-456789</a></li>
+                <li><span class="ft-address-icon"><i class="fa-solid fa-envelope"></i></span><a href="#">+0123-456789</a></li>
+              </ul>
+              <div class="ft-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+         <div class="footer-prent">
+           <h3>Company</h3>
+           <ul class="pt-4">
+             <li><a href="#"><span class="ft-link-span">//</span> About</a></li>
+             <li><a href="#"><span class="ft-link-span">//</span> Blog</a></li>
+             <li><a href="#"><span class="ft-link-span">//</span> All Products</a></li>
+             <li><a href="#"><span class="ft-link-span">//</span> Locations Map</a></li>
+             <li><a href="#"><span class="ft-link-span">//</span> FAQ</a></li>
+             <li><a href="#"><span class="ft-link-span">//</span> Contact us</a></li>
+           </ul>
+         </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+         <div class="footer-prent p-mob">
+           <h3>Services</h3>
+           <ul class="pt-4">
+            <li><a href="#"><span class="ft-link-span">//</span> Order tracking</a></li>
+            <li><a href="#"><span class="ft-link-span">//</span> Wish List</a></li>
+            <li><a href="#"><span class="ft-link-span">//</span> Login</a></li>
+            <li><a href="#"><span class="ft-link-span">//</span> My account</a></li>
+            <li><a href="#"><span class="ft-link-span">//</span> Terms & Conditions</a></li>
+            <li><a href="#"><span class="ft-link-span">//</span> Promotional Offers</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+         <div class="footer-prent p-mob">
+           <h3>Customer Care</h4>
+             <ul class="pt-4">
+               <li><a href="#"><span class="ft-link-span">//</span> Login</a></li>
+               <li><a href="#"><span class="ft-link-span">//</span> Terms & Conditions</a></li>
+               <li><a href="#"><span class="ft-link-span">//</span> My account</a></li>
+               <li><a href="#"><span class="ft-link-span">//</span> Promotional Offers</a></li>
+               <li><a href="#"><span class="ft-link-span">//</span> Wish List</a></li>
+               <li><a href="#"><span class="ft-link-span">//</span> Contact us</a></li>
+             </ul>
+         </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+         <div class="footer-prent-end">
+           <h3>Newsletter</h3>
+           <p class="pt-4 pb-4">Subscribe to our weekly Newsletter and receive updates via email.</p>
+           <div class="ft-newslatter">
+             <form class="news-form">
+               <input type="text" name="news" class="news-input" placeholder="Email*">
+               <button class="news-btn"><i class="fa-solid fa-location-arrow"></i></button>
+             </form>
+           </div>
+           <div class="ft-payment">
+             <h5>We Accept</h5>
+             <img src="image/payment-4.png">
+           </div>
+         </div>
+        </div>
+     </div>
+    </div>
+    <div class="copy-right">
+      <div class="copy-left">
+        <p>All Rights Reserved @ Company 2022</p>
+      </div>
+      <div class="copy-left">
+       <a href="#">Terms & Conditions</a>
+       <a href="#"> Claim</a>
+       <a href="#"> Privacy & Policy</a>
+      </div>
+    </div>
+</footer>
+
+    <!--jQuery link-->
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <!--Bootstrap link-->
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
